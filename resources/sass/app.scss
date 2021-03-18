@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+// WYSIWYG editor
+@import 'trix';
+
+@import "./normalize";
+
+$navBar: #1E2632;
+$background: #f7f8f9;
+$text: #3A3C42;
+
+body {
+    background-color: $background;
+    color: $text;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forgot-pass {
+    color: darkorange;
+}
+
+.forgot-pass:hover {
+    color: darkorange;
+}
+
+.authform {
+    margin-top: 0;
+    margin-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.authcard {
+    width: 40rem;
+}
+
+@import "./nav";
